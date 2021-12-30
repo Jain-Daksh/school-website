@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Roboto:wght@100&display=swap');
+
+.navbar-light .navbar-brand {
+    
+    color: white !important;
+    font-size: 20px;
+}
+
+#logo{
+    color: blue !important;
+    font-weight: 400;
+    font-size: 24px !important;
+    font-family: bree-serif, serif;
+    text-align: left;
+}
+#logo2{
+    color: orange !important;
+    font-weight: 400;
+    font-size: 24px !important;
+    font-family: bree-serif, serif;
+    text-align: left;
+}
+#navbar-2{
+    z-index: 1;
+    color: transparent !important;
+    word-spacing: 30px;
+    padding-right: 57px;
+    padding-left: 57px;
+    
+}
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 10px;
+    
+    
+}
