@@ -39,17 +39,21 @@
     padding-left: 15px;
     padding-right: 10px;
 }
-
+.text-home{
+   display: grid;
+   position: relative;
+   bottom: 10%;
+}
+/*
 .text{
     position: relative;
+    bottom: 70%;
     display: grid;
     grid-template-columns: 20px 20px;
     grid-template-rows: 30px;
-    background-color: aqua;
-    box-sizing: border-box;
     border: black;
     
-}
+}*/
 
 /*welcome*/
 .welcome{
@@ -251,6 +255,10 @@
 }
 */
 
+.service-text-contact{
+    font-size: 15px;
+}
+
 
 .enrollment{
     margin-top: 10%;
@@ -303,10 +311,12 @@
     margin-top: 10%;
     text-align: center;
 }
-.img-news{
-   
-}
 
+.contact{
+    margin-top:10% ;
+    text-align: center;
+    font-size: 20px;
+}
 @media  (max-width: 480px){
 
     
