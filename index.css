@@ -63,9 +63,6 @@
 .service-heading{
     text-align: center;
 }
-.text-service{
-    text-align: center;
-}
 .image-serivce{
     border: 50%;
     height: 50px;
@@ -73,35 +70,19 @@
     
 }
 
-#image-serivce-a  {
+.image-serivce-a  {
     border: 1px solid #FA6738;
     background-color: #FA6738;
     padding: 30px 14px 23px ;
     border-bottom: 2px;
 }
-#image-serivce-b{
+.image-serivce-b{
     border: 1px solid #56509F;
     background-color: #56509F;
     padding: 30px 14px 23px ;
     border-bottom: 2px;
 }
-#image-serivce-c{
-    border: 1px solid #FA6738;
-    background-color: #FA6738;
-    padding: 30px 14px 23px ;
-    border-bottom: 2px;
-}
-#image-serivce-d{
-    border: 1px solid #56509F;
-    background-color: #56509F;
-    padding: 30px 14px 23px ;
-    border-bottom: 2px;
 
-}
-
-.text-service{
-    text-align:center;
-}
 .service-text{
     text-align: center
 }
@@ -280,7 +261,7 @@
 }
 .teacher-info{
     background-color: #F2F2F2;
-    border: 1px solid #FA6738;}
+  /*  border: 1px solid #FA6738;}*/}
 .teachers-text{
     text-align: center;
     font-size: 20px;
@@ -316,6 +297,7 @@
     margin-top:10% ;
     text-align: center;
     font-size: 20px;
+    padding: .15%;
 }
 @media  (max-width: 480px){
 
