@@ -44,21 +44,24 @@
    position: relative;
    bottom: 10%;
 }
-/*
-.text{
-    position: relative;
-    bottom: 70%;
-    display: grid;
-    grid-template-columns: 20px 20px;
-    grid-template-rows: 30px;
-    border: black;
-    
-}*/
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+  }
+  .card {
+    margin-top: 35%;
+    margin-left: 0%;
+    opacity: 0.7;
+    width: 30rem;
+  }
+  .card-text{
+      color: #56509F;
+  }
 
 /*welcome*/
 .welcome{
     margin-top: 10%;
-    padding: 5%;
+    
 }
 .service-heading{
     text-align: center;
@@ -87,7 +90,7 @@
     text-align: center
 }
 
-/* school-info*/
+
 
 .home-text-heading{
     font-size: 30px;
@@ -127,12 +130,15 @@
     width: 50%;
 }
 
-
+/* school-info*/
+.school-info{
+    margin: 10%;
+}
 .info{
     display: flex;
     background:url(http://designingschool.net/kidcare/images/289288-p6o0fb-215-min.jpg?crc=328683285) no-repeat center;
     height: 100vh;
-    margin-top: -15%;
+    margin-top: -25%;
     text-align: center;
 }
 
@@ -142,9 +148,7 @@
     background-color: transparent;
     border-style: solid;
     padding-bottom: 44px;
-    position: relative;
-    width: 144px;
-    
+    text-align: center;
     border-radius: 50%;
     border-width: 3px;
     
@@ -160,7 +164,7 @@
     margin-left: 10%;
    
 }
-/**/
+/*image-school*/
 .image-school{
     margin-top: 10%;
 }
@@ -259,9 +263,10 @@
 .teachers{
     margin-top: 10%;
 }
-.teacher-info{
+.teachers-heading{
     background-color: #F2F2F2;
-  /*  border: 1px solid #FA6738;}*/}
+    
+}
 .teachers-text{
     text-align: center;
     font-size: 20px;
@@ -276,9 +281,9 @@
 .info-teacher-text{
     float: right;
     width: 60%;
-    
-    
+
 }
+
 
 .partner{
     background: url(http://designingschool.net/kidcare/images/o6v4lw0-min.jpg?crc=4251128255) no-repeat center;
@@ -296,8 +301,9 @@
 .contact{
     margin-top:10% ;
     text-align: center;
-    font-size: 20px;
-    padding: .15%;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+    
 }
 @media  (max-width: 480px){
 
@@ -316,12 +322,13 @@
     }
 
     .info{
-        height: 150vh;
+        height: auto;
     }
     .info-text{
         font-size: 13px;
         position: relative !important;
-        bottom: 100% !important;
+        bottom: 20% !important;
+     
     }
     .img-info{
         z-index: 1323;
@@ -337,7 +344,64 @@
     }
     .partner{
 
-        height: 100vh;
+        height: auto;
+        color: #56509F;
     }
-    
+    .enrollment{
+        height: auto;
+    }
+    .enrollment-text{
+        font-size: 14.1px;
+        font-weight: bold;
+        
+    }
+    .info-teachers-image{
+        margin-bottom: 1%;
+    }
+    .info-teacher-text{
+        font-size: 11px;
+        padding-bottom: 1%;
+    }
+    #btn-1 {
+        position: relative;
+        left: 15%;
+    }
+    #btn-2 {
+        position: relative;
+        left: 15%;
+    }
+    #btn-3 {
+        position: relative;
+        left: 15%;
+    }
+    #btn-4 {
+        position: relative;
+        left: 15%;
+    }
+    #btn-5 {
+        position: relative;
+        left: 15%;
+    }
+    #btn-6 {
+        position: relative;
+        left: 15%;
+    }
+    .info-teachers-image{
+        float: left;
+        width: 10%;
+    }
+    .school-image{
+        height: auto;
+        width: auto;
+        margin: 1%;
+    }
+    .card{
+        position: relative !important;
+        right: 21% !important;
+        font-size: 10px;
+    }
+    .d-block w-100{
+        height: auto;
+    }
+
 }
