@@ -80,7 +80,6 @@
     
 }
 
-
 /*Welcome section*/
 .welcome{
     margin-top: 10%;
@@ -109,6 +108,8 @@
 }
 .image-serivce-a{
     border: 1px solid #FA6738;
+    color: #FFFFFF;
+
     background-color: #FA6738;
     margin:  30px;
     padding: 30px; 
@@ -116,29 +117,34 @@
 .image-serivce-b{
     border: 1px solid #56509F;
     background-color: #56509F;
+    color: #FFFFFF;
     margin:  30px;
     padding: 30px; 
+}
+.service-text{
+    height: 400px;
 }
 .service-text-heading{
     text-align: center;
 }
-
-.home-text-heading{
-    font-size: 30px;
-    font-family: 'bree-serif', serif;
-    font-weight: 400;
-    line-height: 36px;
-    color: #56509F ;
-
+/*school-info*/
+.school-info{
+    margin-top: 10%;
 }
-.home-text-para{
-    color: #6A7788;
+.school-info-text-heading{
+    font-size: 30px;
+    color: #56509F;
+    font-weight: 400;
+    font-family: 'bree-serif', serif;
+    line-height: 36px;
+}
+.school-info-text-para{
     font-size: 16px;
-    font-weight: bold;
+    color: #6A7788;
+    font-weight: 600;
     text-align: left;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 26px;
-    
 }
 .image-home{
     height: 400px;
@@ -151,7 +157,6 @@
     height: 500px;
     width: 500px;
 }
-
 .bullet-point-1{
     float: left;
     width: 50%;
@@ -160,11 +165,7 @@
     float: right;
     width: 50%;
 }
-
-/* school-info*/
-.school-info{
-    margin: 10%;
-}
+/*info*/
 .info{
     display: flex;
     background:url(http://designingschool.net/kidcare/images/289288-p6o0fb-215-min.jpg?crc=328683285) no-repeat center;
@@ -199,171 +200,99 @@
 .img-info::before{
     content: "";
 }
+
 /*image-school*/
 .image-school{
-    margin-top: 10%;
+    margin-top:10% ;
 }
 
 .image-school-text{
     text-align: center;
-    font-size: 20px;
-    font-family: bree-serif, serif;
-    line-height: 60px;
+    font-size: 18px;
+    font-family: 'bree-serif', serif;
+    line-height: 26px;
 }
-
-/*parents*/
-.parents{
-    margin-top: 10%;
-}
-.parents{
-    display: flex;
-    background:url(http://designingschool.net/kidcare/images/289233-p6o0by-624-min.jpg?crc=4083061931) no-repeat center;
-    height: 100vh;
-    
-    
-}
-
-.parents-text{
-    position: relative;
-    left: 50%;
-    top: 5%;
-}
-.parents-image{
-    position: relative;
-    top: 14%;
-    left: 17%;
-    
-}
-
-.image-parents{
-    margin-bottom: 2%;
-    border: 5px solid purple;
-}
-
-.parents-text-1{
-    position: relative;
-    top: 20%;
-    text-align: center;
-    right:  27%;
-    margin-right: 5%;
-    color: #6A7788 !important;
-}
-
-
-/*#school-class-type-1{
-    height: 50px;
-    width: 50px;
-    margin: 1%;
-}
-#school-class-type-2{
-    height: 80px;
-    width: 80px;
-    position: relative;
-    left: 50%;
-    margin: 1%;
-}
-#school-class-type-3{
-    height: 80px;
-    width: 80px;
-    position: relative;
-    left: 0%;
-    margin: 1%;
-}
-
-.class-school{
-    text-align: center;
-}
-*/
-
-.service-text-contact{
-    font-size: 15px;
-}
-
+.home-text-heading{
+    color: #56509F;
+    font-size: 50px;
+    line-height: 60px;}
 
 /*enrollment*/
 .enrollment{
-    margin-top: 10%;
-    background: url(http://designingschool.net/kidcare/images/o6g4co0-min.jpg?crc=3774178554) no-repeat center;
-    height: auto;
-}
-
+        margin-top: 10%;
+        background: url(http://designingschool.net/kidcare/images/o6g4co0-min.jpg?crc=3774178554) no-repeat center;
+        height: auto;
+    }
+    
 .enrollment-text{
-font-size: 35px;
-padding: 10%;
-color: #FFFFFF;
-font-weight: 400;
-line-height: 48px;
-font-family: 'roboto', sans-serif;
-}
-
-.teachers{
-    margin-top: 10%;
-}
-.teachers-heading{
-    background-color: #F2F2F2;
-    
-}
-.teachers-text{
-    text-align: center;
-    font-size: 20px;
+    font-size: 35px;
+    padding: 10%;
+    color: #FFFFFF;
     font-weight: 400;
-    font-family: roboto, sans-serif;
-    line-height: 24px;
-}
-.info-teachers-image{
-    float: left;
-    width: 40%;
-}
-.teachers-heading{
-    background-color: #F2F2F2;
-    margin-bottom: 3%;
-    padding: 1%;
-    width: 500px;
-}
-
-
-.partner{
-    background: url(http://designingschool.net/kidcare/images/o6v4lw0-min.jpg?crc=4251128255) no-repeat center;
-    height: 50vh;
-    margin-top: 10%;
-    text-align: center;
-    font-size: 48px;
-    color: white;
-}
-.news{
-    margin-top: 10%;
-    text-align: center;
-}
-
-.contact{
-    margin-top:10% ;
-    text-align: center;
-    font-size: 18px;
-    font-family: roboto, sans-serif;
+    line-height: 48px;
+    font-family: 'roboto', sans-serif;
+    }
+    /*teacher*/
+    .teachers{
+        margin-top: 10%;
+        
+    }
+    .teacher-text{
+        text-align: center;
+    }
     
-}
-@media  (max-width: 480px){
+    .teachers-heading{
+        background-color: #F2F2F2;
+        margin-bottom: 3%;
+        padding: 1%;
+        width: auto;
+    }
+    .teachers-text{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: roboto, sans-serif;
+        line-height: 24px;
+      
+    }
+    /*partner*/
+    .partner{
+        background: url(http://designingschool.net/kidcare/images/o6v4lw0-min.jpg?crc=4251128255) no-repeat center;
+        height: auto;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 48px;
+        color: white;
+    }
+    /*contact*/
+    .contact{
+        margin-top:10% ;
+        text-align: center;
+        font-size: 18px;
+        font-family: roboto, sans-serif;
+    }
+    .contact-heading{
+        font-size: 50px;
+        color: #56509F;
+    }
+    .service-text-contact{
+        font-size: 20px;
+    }
 
+@media only screen and (max-width:480px) {
+    
     .card{
         width: auto;
         margin-right: 3%;
     }
+    /*Welcome section*/
     .image-serivce-a image-serivce-b{
         margin-bottom: 4%;
     }
-
-    .image-home{
-        height: 180px;
-        width: 180px;
+    .service-text{
+        height: auto;
     }
-    .image-home-1{
-        height: 250px;
-        width: 250px;
-    }
-
-    .image-serivce-a image-serivce-b{
-        margin-bottom: 4%;
-    }
+    /*school-info*/
     .school-info{
         padding: 5%;
     }
@@ -378,22 +307,18 @@ font-family: 'roboto', sans-serif;
         left: 27%;
         bottom: 27%;
     }
+    /*info*/
     .info{
         height: auto;
+        
     }
     .info-text{
         position: relative;
         top: 10% !important;
         font-size: 13px;
     }
-   
-    .partner{
-
-        height: auto;
-        color: #56509F;
-    }
-     /*image-school*/
-     .image-school-text{
+    /*image-school*/
+    .image-school-text{
         font-size: 12px;
     }
     .home-text-heading{
@@ -416,56 +341,24 @@ font-family: 'roboto', sans-serif;
        color: white;
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
-    .info-teachers-image{
-        margin-bottom: 1%;
-    }
-    .info-teacher-text{
-        font-size: 11px;
-        padding-bottom: 1%;
-    }
-    #btn-1 {
-        position: relative;
-        left: 15%;
-    }
-    #btn-2 {
-        position: relative;
-        left: 15%;
-    }
-    #btn-3 {
-        position: relative;
-        left: 15%;
-    }
-    #btn-4 {
-        position: relative;
-        left: 15%;
-    }
-    #btn-5 {
-        position: relative;
-        left: 15%;
-    }
-    #btn-6 {
-        position: relative;
-        left: 15%;
-    }
-    .info-teachers-image{
-        float: left;
-        width: 10%;
-    }
-    .school-image{
-        height: auto;
-        width: auto;
-        margin: 1%;
-    }
-    .card{
-        position: relative !important;
-        right: 21% !important;
-        font-size: 10px;
-    }
-    .d-block w-100{
-        height: auto;
-    }
+   /*teacher*/
+   .teachers-text{
+      width: auto;
+      font-size: 15px;
 
-}@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+   }
+   .info-teachers-image{
+      height: auto;
+      width: auto;
+   }
+    /*contact*/
+    .contact{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
 
     .card{
         width: 25rem;
@@ -521,6 +414,29 @@ font-family: 'roboto', sans-serif;
         margin-right: 10%;
         
     }
+    /*enrollment*/
+    .enrollment{
+        height: auto;
+        width: auto;
+    }
+    .enrollment-text{
+        font-size: 25px;
+        color: white;
+    }
+    /*teacher*/
+    .teacher{
+        margin: 10%;
+    }
+   .teachers-text{
+    width: auto;
+    font-size: 20px;
+
+ }
+ .info-teachers-image{
+    height: auto;
+    width: auto;
+ }
+     /*contact*/
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
@@ -560,4 +476,62 @@ font-family: 'roboto', sans-serif;
     height: auto;
     width: auto;
    }
+   /*enrollment*/
+   .enrollment{
+       height: auto;
+       width: auto;
+   }
+   .enrollment-text{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: 30px;
+   }
+   /*teacher*/
+   .teachers{
+      margin-top: 5%;
+   }
+   /*teacher*/
+   .teachers-text{
+    width: auto;
+    font-size: 20px;
+
+ }
+ .info-teachers-image{
+    height: auto;
+    width: auto;
+ }
+  /*contact*/
+}
+
+
+@media screen and (min-device-width: 1024px){
+    /*welcome*/
+    
+    .service-text{
+        width: 250px;
+        height: 300px;
+        font-size: 16px;
+     }
+      /*info*/
+    .info{
+        
+        height: auto;
+        width: auto;
+    }
+    .info-text{
+        position: relative;
+        top: 15% !important;
+        font-size: 18px;
+    }
+
+ 
+    /*enrollment*/
+   .enrollment{
+        height: auto;
+        width: auto;
+}
+    .enrollment-text{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 45px;
+}
+
 }
