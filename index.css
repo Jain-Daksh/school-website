@@ -447,4 +447,99 @@
         height: auto;
     }
 
+}@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+
+    .card{
+        width: 25rem;
+        margin-left: 3%;
+    }
+    /*Welcome section*/
+    .welcome{
+        margin-bottom: 2%;
+    }
+    .image-serivce-a image-serivce-b{
+        margin-bottom: 4%;
+    }
+    .service-text{
+        height: auto;
+    }
+    /*school-info*/
+    .school-info{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .image-home-1{
+        height: 400px;
+        width: 400px;
+    }
+    .image-home{
+        height: 330px;
+        width: 330px;
+        position: relative;
+        left: 27%;
+        bottom: 27%;
+    }
+    /*info*/
+    .info{
+        height: auto;
+    }
+    .info-text{
+        position: relative;
+        top: 10% !important;
+        font-size: 15px;
+    }
+    /*image-school*/
+    .image-school-text{
+        font-size: 12px;
+    }
+    .home-text-heading{
+        font-size: 27px;
+        line-height: 20px;
+    }
+    .school-image{
+        height: auto;
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+    .card{
+        width: 27rem;
+    }
+    /*welcome*/
+    
+    .service-text{
+       width: fit-content;
+       height: 500px;
+       font-size: 16px;
+    }
+    /*school-info*/
+    .image-home-1{
+        height: 450px;
+        width: 400px;
+    }
+    .image-home{
+        height: 300px;
+        width: 280px;
+        
+    }
+    /*info*/
+    .info{
+        margin-top: 5%;
+        height: auto;
+        width: auto;
+    }
+    .info-text{
+        position: relative;
+        top: 15% !important;
+        font-size: 18px;
+    }
+    /*image-school*/
+   .school-image{
+    height: auto;
+    width: auto;
+   }
 }
