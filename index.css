@@ -280,19 +280,20 @@
 }
 
 
+/*enrollment*/
 .enrollment{
     margin-top: 10%;
     background: url(http://designingschool.net/kidcare/images/o6g4co0-min.jpg?crc=3774178554) no-repeat center;
-    height: 60vh;
+    height: auto;
 }
 
 .enrollment-text{
-    font-size: 25px;
-    padding: 10%;
-    color: #FFFFFF;
-    font-weight: 400;
-    line-height: 48px;
-    font-family: bree-serif, ser
+font-size: 35px;
+padding: 10%;
+color: #FFFFFF;
+font-weight: 400;
+line-height: 48px;
+font-family: 'roboto', sans-serif;
 }
 
 .teachers{
@@ -313,10 +314,11 @@
     float: left;
     width: 40%;
 }
-.info-teacher-text{
-    float: right;
-    width: 60%;
-
+.teachers-heading{
+    background-color: #F2F2F2;
+    margin-bottom: 3%;
+    padding: 1%;
+    width: 500px;
 }
 
 
@@ -390,14 +392,30 @@
         height: auto;
         color: #56509F;
     }
-    .enrollment{
+     /*image-school*/
+     .image-school-text{
+        font-size: 12px;
+    }
+    .home-text-heading{
+        font-size: 27px;
+        line-height: 20px;
+    }
+    .school-image{
         height: auto;
+        width: auto;
+        margin-left: 2.5%;
+       
     }
-    .enrollment-text{
-        font-size: 14.1px;
-        font-weight: bold;
-        
-    }
+   /*enrollment*/
+   .enrollment{
+       height: auto;
+       width: auto;
+   }
+   .enrollment-text{
+       font-size: 15px;
+       color: white;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
     .info-teachers-image{
         margin-bottom: 1%;
     }
