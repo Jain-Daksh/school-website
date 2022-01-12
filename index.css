@@ -3,7 +3,9 @@
 
 /*constant*/
 
-
+.icons-navbar::after{
+    content: "";
+}
 #navbar1 {
     background-color: #56509F !important;
     
@@ -108,21 +110,15 @@
 }
 .image-serivce-a{
     border: 1px solid #FA6738;
-    color: #FFFFFF;
-
     background-color: #FA6738;
-    margin:  30px;
+   
     padding: 30px; 
 }
 .image-serivce-b{
     border: 1px solid #56509F;
     background-color: #56509F;
-    color: #FFFFFF;
-    margin:  30px;
+   
     padding: 30px; 
-}
-.service-text{
-    height: 400px;
 }
 .service-text-heading{
     text-align: center;
@@ -139,7 +135,7 @@
     line-height: 36px;
 }
 .school-info-text-para{
-    font-size: 16px;
+    font-size: 18px;
     color: #6A7788;
     font-weight: 600;
     text-align: left;
@@ -150,8 +146,8 @@
     height: 400px;
     width: 350px;
     position: relative;
-    bottom: 40%;
-    left: 40%;
+    bottom: 38%;
+    left: 35%;
 }
 .image-home-1{
     height: 500px;
@@ -164,26 +160,28 @@
 .bullet-point-2{
     float: right;
     width: 50%;
+    
 }
 /*info*/
 .info{
     display: flex;
     background:url(http://designingschool.net/kidcare/images/289288-p6o0fb-215-min.jpg?crc=328683285) no-repeat center;
-    min-height: 100vh;
+    min-height:100vh;
     margin-top:-14% ;
     color: #FFFFFF;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .info-text{
-    position: relative;
-    top: 100%;
-    left: 10%;
+    
+   margin-top: 50%;
     font-size: 14px;
     padding: 3px;
     margin-right: 10%;
     margin-left: 10%;
-    
-    
 }
 .img-info{
     text-align: center;
@@ -205,7 +203,15 @@
 .image-school{
     margin-top:10% ;
 }
+.school-image{
+    margin-bottom: 10px;
+}
+.new{
+    display:grid;
+   grid-column-gap:5% ;
+    grid-row-gap: 5%;
 
+}
 .image-school-text{
     text-align: center;
     font-size: 18px;
@@ -222,30 +228,40 @@
         margin-top: 10%;
         background: url(http://designingschool.net/kidcare/images/o6g4co0-min.jpg?crc=3774178554) no-repeat center;
         height: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+.enrollment-text-heading{
+    font-size: 48px;
     
+    font-family: 'bree-serif', serif;;
+}
 .enrollment-text{
-    font-size: 35px;
-    padding: 10%;
-    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5%;
     font-weight: 400;
-    line-height: 48px;
-    font-family: 'roboto', sans-serif;
+    color: #FFFFFF;
+    font-family: 'bree-serif', serif;
     }
     /*teacher*/
     .teachers{
         margin-top: 10%;
-        
     }
+    
     .teacher-text{
         text-align: center;
     }
     
-    .teachers-heading{
-        background-color: #F2F2F2;
-        margin-bottom: 3%;
-        padding: 1%;
-        width: auto;
+    .info-teachers-image{
+        float: left;
+        width: 49%;
+        margin-bottom: 4%;
+    }
+    .info-teachers-text{
+        float: right;
+        width: 49%;
     }
     .teachers-text{
         text-align: center;
@@ -255,6 +271,7 @@
         line-height: 24px;
       
     }
+    
     /*partner*/
     .partner{
         background: url(http://designingschool.net/kidcare/images/o6v4lw0-min.jpg?crc=4251128255) no-repeat center;
@@ -263,6 +280,10 @@
         text-align: center;
         font-size: 48px;
         color: white;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     /*contact*/
     .contact{
@@ -278,6 +299,9 @@
     .service-text-contact{
         font-size: 20px;
     }
+
+    
+      
 
 @media only screen and (max-width:480px) {
     
@@ -313,6 +337,7 @@
         
     }
     .info-text{
+        margin-top: 0%;
         position: relative;
         top: 10% !important;
         font-size: 13px;
@@ -331,6 +356,12 @@
         margin-left: 2.5%;
        
     }
+    .new{
+        display:grid;
+       grid-column-gap:0% ;
+        grid-row-gap: 0%;
+    
+    }
    /*enrollment*/
    .enrollment{
        height: auto;
@@ -343,19 +374,27 @@
    }
    /*teacher*/
    .teachers-text{
-      width: auto;
-      font-size: 15px;
+    width: auto;
+    font-size: 15px;
 
-   }
-   .info-teachers-image{
-      height: auto;
-      width: auto;
-   }
+ }
+ .info-teachers-image{
+    height: auto;
+    width: auto;
+    margin-bottom: 4%;
+  
+ }
+ .info-teachers-text{
+     float: right;
+     width: 50%;
+ }
+ 
+}
     /*contact*/
     .contact{
         font-size: 15px;
     }
-}
+
 
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
@@ -395,6 +434,7 @@
         height: auto;
     }
     .info-text{
+        margin-top: 0%;
         position: relative;
         top: 10% !important;
         font-size: 15px;
@@ -414,6 +454,12 @@
         margin-right: 10%;
         
     }
+    .new{
+        display:grid;
+       grid-column-gap:0% ;
+        grid-row-gap: 0%;
+    
+    }
     /*enrollment*/
     .enrollment{
         height: auto;
@@ -424,18 +470,21 @@
         color: white;
     }
     /*teacher*/
-    .teacher{
-        margin: 10%;
+    .teacher-text{
+        text-rendering: auto;
+        font-size: 14px;
     }
-   .teachers-text{
-    width: auto;
-    font-size: 20px;
+    .info-teachers-image{
+        height: auto;
+        width: min-content;
+        margin-bottom: 4%;
+      
+     }
+     .info-teachers-text{
+         width: min-content;
+         
+     }
 
- }
- .info-teachers-image{
-    height: auto;
-    width: auto;
- }
      /*contact*/
 }
 
@@ -467,6 +516,7 @@
         width: auto;
     }
     .info-text{
+        margin-top: 0%;
         position: relative;
         top: 15% !important;
         font-size: 18px;
@@ -518,8 +568,9 @@
         width: auto;
     }
     .info-text{
+       
         position: relative;
-        top: 15% !important;
+       
         font-size: 18px;
     }
 
