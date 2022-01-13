@@ -16,7 +16,10 @@
     
     color: white !important;
 }
+.menu-right{
+    text-align: right;
 
+}
 #logo{
     color: blue !important;
     font-weight: 400;
@@ -166,9 +169,10 @@
 .info{
     display: flex;
     background:url(http://designingschool.net/kidcare/images/289288-p6o0fb-215-min.jpg?crc=328683285) no-repeat center;
-    min-height:100vh;
+    min-height:80vh;
     margin-top:-14% ;
     color: #FFFFFF;
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,16 +237,18 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    
 .enrollment-text-heading{
     font-size: 48px;
-    
-    font-family: 'bree-serif', serif;;
+    font-weight: 400;
+    font-family: bree-serif, serif;
 }
 .enrollment-text{
     font-size: 20px;
     padding: 5%;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #FA6738;
+    font-weight: bolder;
     font-family: 'bree-serif', serif;
     }
     /*teacher*/
@@ -336,11 +342,14 @@
         height: auto;
         
     }
+    
     .info-text{
         margin-top: 0%;
         position: relative;
         top: 10% !important;
         font-size: 13px;
+        left: 20%;
+        
     }
     /*image-school*/
     .image-school-text{
@@ -407,7 +416,10 @@
     .welcome{
         margin-bottom: 2%;
     }
-    .image-serivce-a image-serivce-b{
+    .image-serivce-a {
+        margin-bottom: 4%;
+    }
+    .image-serivce-b{
         margin-bottom: 4%;
     }
     .service-text{
